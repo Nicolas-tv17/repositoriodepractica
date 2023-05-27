@@ -172,30 +172,41 @@ public class Condicion8{
 			}else if(d4==1){
 				if (d5==0) {
 					System.out.print("DIEZ ");
-				}else if(d5==1){
-					System.out.print("ONCE ");
-				}else if(d5==2){
-					System.out.print("DOCE ");
-				}else if(d5==3){
-					System.out.print("TRECE ");
-				}else if(d5==4){
-					System.out.print("CATORCE ");
-				}else if(d5==5){
-					System.out.print("QUINCE ");
-				}else if(d5==6){
-					System.out.print("DIECISEIS ");
-				}else if(d5==7){
-					System.out.print("DIECISIETE ");
-				}else if(d5==8){
-					System.out.print("DIECIOCHO ");
-				}else if(d5==9){
-					System.out.print("DIECINUEVE ");
+				}else if(d4==1){
+					if(d5==1){
+						System.out.print("ONCE ");
+					}
+					if(d5==2){
+						System.out.print("DOCE ");
+					}
+					if(d5==3){
+						System.out.print("TRECE ");
+					}
+					if(d5==4){
+						System.out.print("CATORCE ");
+					}
+					if(d5==5){
+						System.out.print("QUINCE ");
+					}
+					if(d5==6){
+						System.out.print("DIECISEIS ");
+					}
+					if(d5==7){
+						System.out.print("DIECISIETE ");
+					}
+					if(d5==8){
+						System.out.print("DIECIOCHO ");
+					}
+					if(d5==9){
+						System.out.print("DIECINUEVE ");
+					}
 				}
+
 			}else if(d4==2){
 				if (d5==0) {
 					System.out.print("VEINTE ");
 				}else{
-					System.out.print("VEINTI");
+					System.out.print("VEINTI ");
 				}
 			}else if(d4==3){
 				if (d5==0) {
